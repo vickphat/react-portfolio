@@ -10,14 +10,14 @@ const Footer = () => {
   
         <div className="d-flex">
   
-          <a className="nav-item nav-link p-0 ml-2" href='mailto:vickphat@gmail.com'>
+          <a className="nav-item nav-link p-0 mx-5" href='mailto:vickphat@gmail.com'>
             <h1><i className="bi bi-envelope-fill"></i></h1> 
           </a>
-          <a className="nav-item nav-link p-0 ml-2" href="https://github.com/vickphat"
+          <a className="nav-item nav-link p-0 mx-5" href="https://github.com/vickphat"
             rel="noopener noreferrer" target="blank">
             <h1><i className="bi bi-github"></i></h1> 
           </a>
-          <a className="nav-item nav-link p-0 ml-2" href="https://www.linkedin.com/in/vicheka-phat-9a569a98/"
+          <a className="nav-item nav-link p-0 mx-5" href="https://www.linkedin.com/in/vicheka-phat-9a569a98/"
             rel="noopener noreferrer" target="blank">
             <h1><i className="bi bi-linkedin"></i></h1> 
           </a>
