@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
 
     return (
-      <nav className="navbar fixed-bottom bg-light d-flex justify-content-between flex-column flex-md-row">
-        <large className="text-secondary text-center">
-        React Portfolio by vickphat | vickphat@gmail.com | (216)630-2006 | www.github.com/vickphat     
-        </large>
+      <nav className=" fixed-bottom bg-dark d-flex justify-content-between flex-column flex-md-row">
+        <span className="text-secondary text-center">
+        React Portfolio by vickphat | vickphat@gmail.com | (216)-630-2006 | www.github.com/vickphat     
+        </span>
   
         <div className="d-flex">
   
@@ -32,13 +32,4 @@ const Footer = () => {
   export default Footer;
 
 
-<section className='container-fluid'>
-    <button type="button" class="btn btn-outline-danger btn-lg mx-3"><a href="https://www.gmail.com" target="blank"><i class="fa fa-envelope fa-5x"></i></a></button>
-
-    <button type="button" class="btn btn-outline-danger btn-lg mx-3"><a href="https://github.com/vickphat" target="blank"><i class="fa fa-github fa-5x"></i></a></button>
-
-    <button type="button" class="btn btn-outline-danger btn-lg mx-3"><a href="https://www.linkedin.com/in/vicheka-phat-9a569a98/" target="blank"><i class="fa fa-linkedin fa-5x"></i></a></button>
-
-    <p>React Portfolio by vickphat | vickphat@gmail.com | (216)630-2006 | www.github.com/vickphat   </p>  
-</section>
 

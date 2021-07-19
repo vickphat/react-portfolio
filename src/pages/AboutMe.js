@@ -1,13 +1,13 @@
 import React from 'react';
-import profile from "../images/profile2.jpg"
+import profile from "../images/profile2.jpg";
 
 const AboutMe = () => {
     return (
-        <div className=" container-fluid col-sm-12 card text-white bg-dark mb-3">
-            <img src={profile} className="mx-auto rounded-circle" alt="profile" />
-            <div className="card-body" id="AboutMe">
-                <h1 className="card-title">About Me</h1>
-                <p className="card-text">HELLO! Welcome to my portfolio. My name is Vicheka Phat. However, I prefer
+        <div className="container card text-white bg-dark d-flex ">
+            <img src={profile} className="img-fluid mx-auto rounded-circle" alt="profile" />
+            <div className="d-flex justify-content-center">
+                <h1 className="text-center mx-2 p-3">About Me</h1>
+                <p className="scroll mx-2 p-3 ">HELLO! Welcome to my portfolio. My name is Vicheka Phat. However, I prefer
                     to go by the name Vick. Currently, I am a partial owner of a nail salon
                     located in Westlake. I have been in this line of work for 10 years. I have always
                     been passionate when it came to technology. I have built my own PC in the past and

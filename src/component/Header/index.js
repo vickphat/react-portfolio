@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const resume = "https://drive.google.com/file/d/1AFykob_y_QZElHbgHCOqd4yIrxUY0w2S/view?usp=sharing"
+
 const Header = () => {
 
     return (
@@ -17,16 +19,16 @@ const Header = () => {
                     <div className="d-flex" id="navbarText">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link text-white hover" to="/">Home <i
+                                <Link className="nav-link text-white" to="/">About Me <i
                                     className="bi bi-house-fill"></i>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="./work.html">Applications <i
-                                    className="fa fa-archive fa-fw"></i></a>
+                                <Link className="nav-link text-white" to="/applications">Applications <i
+                                    className="fa fa-archive fa-fw"></i></Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="https://drive.google.com/file/d/1AFykob_y_QZElHbgHCOqd4yIrxUY0w2S/view?usp=sharing" target="blank">Resume<i
+                                <a className="nav-link text-white" href={resume} target="blank">Resume<i
                                     className="fa fa-file fa-fw"></i></a>
                             </li>
                         </ul>
