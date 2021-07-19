@@ -5,7 +5,7 @@ const Footer = () => {
     return (
       <nav className=" fixed-bottom bg-dark d-flex justify-content-between flex-column flex-md-row">
         <span className="text-secondary text-center">
-        React Portfolio by vickphat | vickphat@gmail.com | (216)-630-2006 | www.github.com/vickphat     
+        React Portfolio by Vick Phat | vickphat@gmail.com | (216)-630-2006 | www.github.com/vickphat     
         </span>
   
         <div className="d-flex">
