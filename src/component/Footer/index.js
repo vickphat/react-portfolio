@@ -3,12 +3,12 @@ import React from 'react';
 const Footer = () => {
 
     return (
-      <nav className=" fixed-bottom bg-dark d-flex justify-content-between flex-column flex-md-row">
-        <span className="text-secondary text-center">
+      <nav className=" fixed-bottom bg-dark d-flex justify-content-between flex-md-row">
+        <p className="text-white">
         React Portfolio by Vick Phat | vickphat@gmail.com | (216)-630-2006 | www.github.com/vickphat     
-        </span>
+        </p>
   
-        <div className="d-flex">
+        <div className="d-flex footer">
   
           <a className="nav-item nav-link p-0 mx-5" href='mailto:vickphat@gmail.com'>
             <h1><i className="bi bi-envelope-fill"></i></h1> 

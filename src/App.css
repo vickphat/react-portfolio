@@ -32,6 +32,10 @@ body{
   background-color: #282c34;
 }
 
+.footer {
+  height: 3rem;
+}
+
 .scroll{
   background-color: gray;
   width:100%;
@@ -41,6 +45,7 @@ body{
     overflow-x: hidden;
     justify-content: center;
 }
+
 
 @keyframes App-logo-spin {
   from {
