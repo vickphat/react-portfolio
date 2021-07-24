@@ -11,6 +11,11 @@
 ## Description:
 For this homework assignment, I was tasked with creating my portfolio with React. I kept my profile simple with a dark grey and light grey theme. I created the header and the footer components so that they both can be static on the page. In the header, I have links to my home page which is the "about me" section, a page for a few of my projects and a link to download my resume. Both the homepage and my projects page will render when clicked. 
 
+* The following link will be for my deployed react portfolio:
+  * https://vickphat.github.io/react-portfolio/
+
+  <img src="./src/images/reactPortfolio.JPG"/>
+
 ## Installation:
 
 To run this application, "npx create-react-app" should be initialized first. Then, the following additional dependencies should be installed:
