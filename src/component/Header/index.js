@@ -24,7 +24,7 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white" to="/applications">Applications <i
+                                <Link className="nav-link text-white" to="/applications">Projects <i
                                     className="fa fa-archive fa-fw"></i></Link>
                             </li>
                             <li className="nav-item">
